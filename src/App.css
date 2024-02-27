@@ -10,17 +10,20 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("../assets/background-pattern-desktop.svg");
+  background-image: url("../public/assets/background-pattern-desktop.svg");
   background-position: center top;
   background-repeat: no-repeat;
   background-size: contain;
   background-color: hsl(275, 100%, 97%);
   color: hsl(292, 42%, 14%);
-  width: 100%;
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
   margin: 0;
   font-family: "Work Sans", sans-serif;
   min-height: 100vh;
-   flex-direction: column;
+  flex-direction: column;
+  position: relative;
 }
 
 #root {
@@ -42,17 +45,18 @@ body {
 }
 
 .container {
-    display: grid;
-    grid-template-columns: auto 1fr;
-    grid-gap: 10px;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-gap: 10px;
   align-items: center;
-   position: relative;
+  position: relative;
 }
 
 .star-icon {
   width: 2rem;
   float: left;
-    position: relative; z-index: 1;
+  position: relative;
+  z-index: 1;
 }
 
 /*Stying for Question Sections*/
@@ -155,8 +159,8 @@ footer {
 }
 
 hr {
-	border-top: 1px solid #8c8b8b;
-	border-bottom: 1px solid #fff;
+  border-top: 1px solid #8c8b8b;
+  border-bottom: 1px solid #fff;
 }
 
 .icon {
@@ -172,21 +176,19 @@ hr {
 }
 
 .link {
-     background-image: linear-gradient(
-    to right,
-    #54b3d6,
-    #54b3d6 50%,
-    #000 50%
-  );
-    background-size: 200% 100%;
+  background-image: linear-gradient(to right,
+      #54b3d6,
+      #54b3d6 50%,
+      #000 50%);
+  background-size: 200% 100%;
   background-position: -100%;
-    -webkit-background-clip: text;
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-    transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .link:before {
-    content: '';
+  content: '';
   background: hsl(292, 42%, 14%);
   display: block;
   position: absolute;
@@ -197,7 +199,7 @@ hr {
 }
 
 .link:hover {
- background-position: 0;
+  background-position: 0;
 
 }
 
