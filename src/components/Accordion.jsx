@@ -6,8 +6,8 @@ export default function Accordion(props) {
 
 	const styles = {
 		backgroundImage: open
-			? `url("./src/assets/icon-minus.svg")`
-			: `url("./src/assets/icon-plus.svg")`,
+			? `url("./assets/icon-minus.svg")`
+			: `url("./assets/icon-plus.svg")`,
 	};
 
 	function toggle() {

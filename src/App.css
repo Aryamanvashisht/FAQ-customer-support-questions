@@ -10,7 +10,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("../src/assets/background-pattern-desktop.svg");
+  background-image: url("../assets/background-pattern-desktop.svg");
   background-position: center top;
   background-repeat: no-repeat;
   background-size: contain;
@@ -38,7 +38,7 @@ body {
   border-radius: .5rem;
   padding: 1rem 1.25rem;
   box-shadow: 0 0 2rem hsla(292, 42%, 14%, 25%);
-  position: absolute;
+  height: auto;
 }
 
 .container {

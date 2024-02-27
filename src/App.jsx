@@ -11,7 +11,7 @@ const App = () => {
 		<>
 			<div className="app flex flex-col">
 				<h1>
-					<img src="./src/assets/icon-star.svg" alt="" className="star-icon" />
+					<img src="./assets/icon-star.svg" alt="" className="star-icon" />
 					<span className="container">FAQs</span>
 				</h1>
 				<div className="single-question-container">{questionArray}</div>
