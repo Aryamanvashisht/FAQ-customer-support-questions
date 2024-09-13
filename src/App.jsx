@@ -15,10 +15,8 @@ const App = () => {
 					<span className="container">FAQs</span>
 				</h1>
 				<div className="single-question-container">{questionArray}</div>
-				hello
 			</div>
 			<hr className="my-6 border-b border-dashed border-slate-500" />
-			{/* <Footer /> */}
 		</>
 	);
 };
